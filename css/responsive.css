@@ -1,0 +1,19 @@
+.card-1{
+    background-color: red;
+}
+
+
+
+@media(max-width: 768px)
+{
+
+    .card-1{
+        background-color: black;
+        color: white;
+    }
+
+    .p-tag-res {
+        font-size: 10px!important;
+    }
+    
+}

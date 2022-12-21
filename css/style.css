@@ -1,0 +1,170 @@
+body
+{
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Second-part cardd start */
+
+.second-part-card {
+    color: #294f70; 
+    font-size: 18px; 
+    text-decoration: none;
+}
+
+.second-part-card:hover {
+    color: #294f70; 
+    text-decoration: underline;
+}
+
+.card-responsive {
+    width: 25%;
+    margin: auto;
+}
+
+
+/* Navbar- Style HERE */
+
+.nav-item-container {
+    margin-top: 10px;
+}
+
+.nav-item-container ul {
+    display: flex;
+}
+
+.nav-item-container li{
+    list-style-type: none;
+    margin-left: 25px;
+}
+.nav-item-container a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3d4e5e;
+}
+.nav-item-container a:hover{
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3d4e5e;
+}
+
+.nav-container {
+    box-shadow: 0 4px 2px -2px grey;
+}
+
+
+.responsive-footer-img {
+    margin-top: -10px;
+}
+
+/* Reslut Page */
+
+.result-list a {
+    text-decoration: none;
+    font-weight: 800;
+    color: blue;
+    
+}
+.result-list li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+/* For FORM */
+
+.form-control {
+    border-radius: 0rem !important;
+    padding: .23rem .75rem !important;
+    color: #294f70!important;
+}
+
+.submit-button {
+    width: 153px;
+    height: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 1px solid rgb(36, 36, 36);
+}
+
+/* Menu Work */
+
+.toggle-button {
+    position: absolute;
+    top:  .75rem;
+    right: 1rem;
+    display: none;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+   
+   color: black;
+   font-size: 25px;
+}
+
+
+
+
+
+/* Responsiv Work HERE */
+
+@media(max-width: 768px) {
+
+    .card-responsive {
+        width: 100%;
+        margin: auto;
+    }
+
+    .responsive-heading{
+        font-size: 20px!important;
+    }
+
+    .responsive-heading-list{
+        font-size: 26px!important;
+    }
+
+    .responsive-row {
+        margin-top: 170px;
+    }
+
+    .responsive-footer-img {
+        margin-top: -50px;
+    }
+
+    .responsive-heading-result {
+        font-size: 22px!important;
+    }
+
+    /* Menu */
+
+    .toggle-button{
+        display: flex;
+    }
+    .nav-item-container {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-item-container ul {
+        flex-direction: column;
+        text-align: center;  
+        width: 100%;
+    }
+    .nav-item-container li {
+     margin-top: 10px; 
+    }
+    .nav-item-container .active {
+        display: flex;
+    }
+
+
+
+
+}
+
+
+
